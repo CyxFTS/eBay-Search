@@ -1,0 +1,43 @@
+<!--
+  Copyright (C) 2016 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">eBay Catalog Search</string>
+    <string name="results">Search Results</string>
+    <string name="details">Search Results</string>
+    <string name="keyword">Keyword</string>
+    <string name="priceRange">Price Range</string>
+    <string name="condition">Condition</string>
+    <string name="sort_by">Sort By</string>
+    <string name="button_text">Search</string>
+    <string name="input_hint">Enter Keyword</string>
+    <string name="input_hint_min">Minimum Price</string>
+    <string name="input_hint_max">Maximum Price</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="no_results">No Results Found</string>
+    <string name="error_keyword">Please enter mandatory field</string>
+    <string name="error_price">Please enter valid price values</string>
+
+
+    <string-array name="planets_array">
+        <item>Best Match</item>
+        <item>Price: highest first</item>
+        <item>Price + Shipping: Highest first</item>
+        <item>Price + Shipping: Lowest first</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

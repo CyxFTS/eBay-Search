@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ProductFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView_product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/foo"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="Price"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_product_shipping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ShippingCost"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/grey_line1"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:id="@+id/fo31"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:src="@drawable/information"/>
+
+            <TextView
+                android:id="@+id/textView_product_features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Product Features"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/foo1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_product_brand"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Brand"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView_product_brand_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/foo2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_product_subtitle"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Subtitle"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView_product_subtitle_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtitle content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/grey_line2"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/fo313"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/wrench"/>
+            <TextView
+                android:id="@+id/textView_specifics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specifications"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView_specifics_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specifications content"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+</ScrollView>
